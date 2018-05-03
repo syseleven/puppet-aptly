@@ -31,7 +31,7 @@ class aptly::config {
   file { $config['rootDir']:
     ensure  => directory,
     mode    => '0644',
-    recurse => true,
+    recurse => $aptly::recurse_root_dir,
   }
 
 }

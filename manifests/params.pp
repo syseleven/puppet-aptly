@@ -48,4 +48,5 @@ class aptly::params {
   $api_bind             = '0.0.0.0'
   $api_nolock           = false
   $manage_xz_utils      = true
+  $recurse_root_dir     = true
 }
