@@ -22,6 +22,5 @@ define aptly::publish (
     config_filepath => $config_filepath,
     source_type     => $source_type,
     distribution    => $distribution,
-    notify          => Class['aptly::service'],
   }
 }
